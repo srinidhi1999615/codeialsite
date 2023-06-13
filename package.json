@@ -1,0 +1,28 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "A social media site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Srinidhi Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^3.1.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "install": "^0.13.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.10.0",
+    "node": "^14.16.1",
+    "node-sass": "^9.0.0",
+    "npm": "^9.7.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
